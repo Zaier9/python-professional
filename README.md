@@ -13,7 +13,7 @@ Como resultado nos mostrara si existe algun error de compatibilidad de tipos.
 
 El scope es el alcance que tienen las variables. Depende de donde declares o inicialices una variable para saber si tienes acceso. Regla de oro:
 
-**Una variable solo esta disponible dentro de la region donde fue creada*
+*Una variable solo esta disponible dentro de la region donde fue creada*
 
 ### Local Scope
 

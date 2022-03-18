@@ -32,3 +32,8 @@ Al escribir una o mas variables en esta region, estas podrán ser accesibles des
 * Debemos tener una nested function.
 * La nested function debe referenciar un valor de un scope superior.
 * La funcion que envuelve a la nested function debe retornarla tambien.
+
+
+## Decorators
+
+Funcion que recibe como parametro otra funcion, le añade cosas, y retorna una funcion diferente.

@@ -37,3 +37,10 @@ Al escribir una o mas variables en esta region, estas podrán ser accesibles des
 ## Decorators
 
 Funcion que recibe como parametro otra funcion, le añade cosas, y retorna una funcion diferente.
+
+
+## Generators
+
+### Los Generadores son iteradores con Sugar Syntax.
+
+**Yield** es una palabra clave que se usa para retornar de una función sin destruir los estados de las variables locales y cuando se llama a la función, la ejecución comienza desde el último yield declarado. Toda función que contenga la palabra clave yield es denominada como un generador.

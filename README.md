@@ -80,3 +80,13 @@ Existen 4 métodos:
 * remove() = También se indica como parámetro el elemento a eliminar, pero en este caso si no exististe el elemento arroja un error (KeyError) y detiene la ejecución.
 * pop() = Elimina un elemento del set de manera aleatoria.
 * clear() = Limpia el set completo.
+
+### Operaciones con sets
+
+* Unión: La unión de dos conjuntos es el resultado de combinar todos los elementos, sin repetir👀. Para hacer esto, usamos el pipe operator my_set3 = my_set1 | my_set2.
+
+* Intersección: Nos quedamos solamente con los elementos que ambos sets tienen en común. Para hacer esto, hacemos my_set3 = my_set1 & my_set2. 🤯
+
+* Diferencia: Tomar dos set, y de uno quitar todos los elementos que contiene el otro. Para hacer esto, hacemos my_set3 = my_set1 - my_set2. Es importante notar que my_set1 - my_set2 != my_set2 - my_set1.
+
+* Diferencia simétrica: Es lo contrario a la intersección. Nos quedamos con los elementos que no se comparten, esto es hace cómo my_set3 = my_set1 ^ my_set2.
